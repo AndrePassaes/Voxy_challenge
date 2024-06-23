@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Count</title>
+</head>
+<body>
+    <h1>Word Count</h1>
+    <form method="POST">
+        <label for="text">Enter your text:</label><br>
+        <textarea id="text" name="text" rows="10" cols="50"></textarea><br>
+        <input type="submit" value="Count Words">
+    </form>
+    {%if word_count%}
+        <p>The text contains {{word_count}} words.</p>
+    {%endif%}
+    {%if error%}
+        <p style="color:red;">{{ error }}</p>
+    {%endif%} 
+</body>
+</html>

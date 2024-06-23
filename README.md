@@ -1,4 +1,4 @@
-VOXY CODE CHALLENGE
+# VOXY CODE CHALLENGE
 
 CREATE A USER-FACING FORM THAT COUNTS THE NUMBER OF WORDS IN A BLOCK OF TEXT.
 
@@ -21,18 +21,14 @@ prefer.
 
 *SOLUTION PRESENTATION*
 
-I have created a simple web appliction using Python language and Flask Framework, `render_template`, and `request` libraries. The frontend was created with html. There is room for improvement with JavaScript and CSS in the frontend.
+I have created a simple web application using Python language and Flask Framework, `render_template`, and `request` libraries. The front end was developed with HTML. There is room for improvement with JavaScript and CSS in the front end.
 
-`Flask` - A Python Framework known to be light and easy, excellent for small applications.
-`render_template`- A Flask built-in functionallity from `Jinja2` template engine to automatically render `html`templates.
+`Flask` - A Python Framework is known to be light and easy, excellent for small applications.
+`render_template`- A Flask built-in functionality from the `Jinja2` template engine to automatically render `html`templates.
 
 `request` - Flask built-in library to handle HTTP requests.
 
-`html` template: The `index.html` template is used to create the user interface. There is room to improve the UX improving the html template implementing CSS to the code.
+`html` template: The `index.html` template creates the user interface. There is room to improve the UX by improving the HTML template and implementing CSS in the code.
 
-`Error Handling` - The code includes error handling to display error if the user submits the text field empty. Implemented to prevent unexpected behavior.
+`Error Handling` - The code includes error handling to display an error if the user submits the text field empty. It was implemented to prevent unexpected behavior.
 
-
-
-
-# Voxy_challenge

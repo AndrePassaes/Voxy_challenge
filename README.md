@@ -32,3 +32,14 @@ I have created a simple web application using Python language and Flask Framewor
 
 `Error Handling` - The code includes error handling to display an error if the user submits the text field empty. It was implemented to prevent unexpected behavior.
 
+# HOW TO RUN THE APPLICATION
+
+- Clone the repository;
+
+- Run the code;
+
+- Open the localhost route;
+
+- Insert some words, and submit;
+
+- If you submit without writing words, an error message will dislay.

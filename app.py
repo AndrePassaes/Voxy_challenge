@@ -36,3 +36,6 @@ def index() -> str:
 
 if __name__ == "__main__":
     app.run(debug=True)
+    
+#TODO
+# Add a feature to test the implementation using Pytest
